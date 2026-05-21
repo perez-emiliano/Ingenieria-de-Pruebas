@@ -25,3 +25,10 @@ jobs:
           python -m pytest -q
         env:
           PYTHONPATH: ${{ github.workspace }}
+      - name: Upload reports and class
+        uses: actions/upload-artifact@v3
+        with:
+            name: pruebas-reportes
+            path: |
+              report.html
+              calculadora.py
