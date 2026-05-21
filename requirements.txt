@@ -1,0 +1,5 @@
+##Archivo: requirements.txt
+
+pytest
+pytest-cov
+pytest-html
