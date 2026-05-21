@@ -3,8 +3,7 @@ def test_add():
     calc = Calculadora()
     assert calc.add(2, 3) == 5
 
-def nueva_funcion():
+def test_nueva_funcion():
     calc = Calculadora()
-    # sustituye `nueva_funcion` y `expected` por los nombres/valores reales
-    resultado = calc.mi_nueva_funcion(2, 3)
-    assert resultado == 5
+    # prueba intencionalmente saboteda: expectativa incorrecta para forzar fallo
+    assert calc.nueva_funcion(2, 3) == 999
