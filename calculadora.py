@@ -4,3 +4,6 @@ class Calculadora:
     
     def subtract(self, a, b):
         return a - b
+    
+    def nueva_funcion(self, a, b):
+        return a + b

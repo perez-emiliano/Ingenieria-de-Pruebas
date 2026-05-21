@@ -5,5 +5,4 @@ def test_add():
 
 def test_nueva_funcion():
     calc = Calculadora()
-    # prueba intencionalmente saboteda: expectativa incorrecta para forzar fallo
-    assert calc.nueva_funcion(2, 3) == 999
+    assert calc.nueva_funcion(2, 3) == 5
